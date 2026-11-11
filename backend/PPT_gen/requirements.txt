@@ -1,0 +1,41 @@
+# Core AI and ML
+google-generativeai>=0.8.5
+pydantic>=2.0.0
+
+# Document Processing
+python-pptx>=0.6.21
+PyPDF2>=3.0.1
+pymupdf>=1.23.0
+python-docx>=0.8.11
+
+# Web and API
+requests>=2.31.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Utilities
+pathlib2>=2.3.7
+typing-extensions>=4.8.0
+
+# Development and Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Logging and Monitoring
+structlog>=23.1.0
+
+# Optional: For advanced features
+# opencv-python>=4.8.0  # For image processing
+# pillow>=10.0.0        # For image manipulation
+# matplotlib>=3.7.0     # For charts and graphs
+# seaborn>=0.12.0       # For statistical plots

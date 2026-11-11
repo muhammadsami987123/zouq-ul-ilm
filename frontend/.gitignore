@@ -1,0 +1,45 @@
+# Next.js build output
+.next/
+out/
+
+# Dependencies
+node_modules/
+# Production
+ produção/
+
+# Miscellaneous
+.DS_Store
+*.pem
+
+# Local development
+.env.local
+.env.*
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# macOS specific
+.DS_Store
+
+# IDE specific
+.vscode/
+.idea/
+
+# Next.js specific build files
+.next/
+.turbo/
+
+# Vercel specific (if deployed to Vercel)
+.vercel/
+
+# Testing
+coverage/
+
+# Storybook
+.storybook/out/
+
+# Amplify
+.amplify-hosting/

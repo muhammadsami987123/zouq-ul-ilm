@@ -1,0 +1,141 @@
+{
+  "templates": {
+    "polyhedron": {
+      "name": "polyhedron",
+      "display_name": "Polyhedron",
+      "category": "modern",
+      "description": "Modern geometric design with clean lines and professional appearance",
+      "author": "Zouq ul Ilm",
+      "version": "1.0",
+      "tags": ["modern", "geometric", "professional", "clean"],
+      "color_scheme": {
+        "primary": "#2E86AB",
+        "secondary": "#A23B72",
+        "accent": "#F18F01",
+        "background": "#FFFFFF",
+        "text": "#333333"
+      },
+      "font_family": "Calibri",
+      "suitable_for": ["computer_science", "mathematics", "engineering", "business"],
+      "slide_types": ["title", "content", "section", "comparison", "conclusion"]
+    },
+    "blue": {
+      "name": "blue",
+      "display_name": "Professional Blue",
+      "category": "professional",
+      "description": "Classic professional blue theme suitable for business presentations",
+      "author": "Zouq ul Ilm",
+      "version": "1.0",
+      "tags": ["professional", "business", "corporate", "classic"],
+      "color_scheme": {
+        "primary": "#1E3A8A",
+        "secondary": "#3B82F6",
+        "accent": "#F59E0B",
+        "background": "#FFFFFF",
+        "text": "#1F2937"
+      },
+      "font_family": "Arial",
+      "suitable_for": ["business", "economics", "management", "corporate"],
+      "slide_types": ["title", "content", "section", "chart", "conclusion"]
+    },
+    "green": {
+      "name": "green",
+      "display_name": "Academic Green",
+      "category": "academic",
+      "description": "Academic green theme perfect for educational content",
+      "author": "Zouq ul Ilm",
+      "version": "1.0",
+      "tags": ["academic", "education", "nature", "growth"],
+      "color_scheme": {
+        "primary": "#059669",
+        "secondary": "#10B981",
+        "accent": "#F59E0B",
+        "background": "#FFFFFF",
+        "text": "#1F2937"
+      },
+      "font_family": "Times New Roman",
+      "suitable_for": ["biology", "environmental_science", "education", "health"],
+      "slide_types": ["title", "content", "section", "process", "conclusion"]
+    },
+    "silver_stone": {
+      "name": "silver_stone",
+      "display_name": "Silver Stone",
+      "category": "professional",
+      "description": "Elegant silver and stone color scheme for sophisticated presentations",
+      "author": "Zouq ul Ilm",
+      "version": "1.0",
+      "tags": ["elegant", "sophisticated", "professional", "neutral"],
+      "color_scheme": {
+        "primary": "#6B7280",
+        "secondary": "#9CA3AF",
+        "accent": "#EF4444",
+        "background": "#FFFFFF",
+        "text": "#374151"
+      },
+      "font_family": "Segoe UI",
+      "suitable_for": ["architecture", "design", "art", "luxury"],
+      "slide_types": ["title", "content", "section", "gallery", "conclusion"]
+    },
+    "gradation_green": {
+      "name": "gradation_green",
+      "display_name": "Gradient Green",
+      "category": "modern",
+      "description": "Modern gradient green design with contemporary styling",
+      "author": "Zouq ul Ilm",
+      "version": "1.0",
+      "tags": ["modern", "gradient", "contemporary", "fresh"],
+      "color_scheme": {
+        "primary": "#16A34A",
+        "secondary": "#22C55E",
+        "accent": "#F59E0B",
+        "background": "#FFFFFF",
+        "text": "#1F2937"
+      },
+      "font_family": "Inter",
+      "suitable_for": ["technology", "innovation", "startup", "digital"],
+      "slide_types": ["title", "content", "section", "timeline", "conclusion"]
+    },
+    "yellow_subhan": {
+      "name": "yellow_subhan",
+      "display_name": "Yellow Subhan",
+      "category": "academic",
+      "description": "Warm yellow theme with academic focus and readability",
+      "author": "Zouq ul Ilm",
+      "version": "1.0",
+      "tags": ["academic", "warm", "readable", "educational"],
+      "color_scheme": {
+        "primary": "#EAB308",
+        "secondary": "#FCD34D",
+        "accent": "#EF4444",
+        "background": "#FFFFFF",
+        "text": "#1F2937"
+      },
+      "font_family": "Georgia",
+      "suitable_for": ["literature", "history", "philosophy", "social_sciences"],
+      "slide_types": ["title", "content", "section", "quote", "conclusion"]
+    }
+  },
+  "categories": {
+    "modern": {
+      "name": "Modern",
+      "description": "Contemporary designs with clean lines and modern aesthetics",
+      "templates": ["polyhedron", "gradation_green"]
+    },
+    "professional": {
+      "name": "Professional",
+      "description": "Business-focused templates suitable for corporate presentations",
+      "templates": ["blue", "silver_stone"]
+    },
+    "academic": {
+      "name": "Academic",
+      "description": "Educational templates designed for academic and research presentations",
+      "templates": ["green", "yellow_subhan"]
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-09-13",
+    "total_templates": 6,
+    "default_template": "polyhedron"
+  }
+}

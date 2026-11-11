@@ -1,0 +1,11 @@
+Flask
+Flask-CORS
+python-dotenv
+google-generativeai
+PyPDF2
+python-pptx
+PyMuPDF
+Pillow
+python-docx
+fpdf
+pytesseract
